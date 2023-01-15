@@ -1,0 +1,295 @@
+@font-face {
+	font-family: 'VantaLight';
+	src: url('../fonts/ofont.ru_VantaLight.eot');
+	src: local('☺'), url('../fonts/ofont.ru_VantaLight.woff') format('woff'), url('../fonts/ofont.ru_VantaLight.ttf') format('truetype'), url('../fonts/ofont.ru_VantaLight.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Vanta';
+	src: url('../fonts/ofont.ru_Vanta.eot');
+	src: local('☺'), url('../fonts/ofont.ru_Vanta.woff') format('woff'), url('../fonts/ofont.ru_Vanta.ttf') format('truetype'), url('../fonts/ofont.ru_Vanta.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+html, body {
+    height: 100%;
+    max-height: 100%;
+    overflow-x: hidden;
+    background-color: #FFFFFF;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container {
+    max-width: 1630px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+
+.header {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header a {
+    text-decoration: none;
+    font-family: 'VantaLight';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16.38px;
+}
+
+a {
+    color: #363431;
+}
+
+
+.row_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.menu_mobile {
+    display: none;
+}
+
+.header_logo {
+    margin-right: 108px;
+}
+
+.four_links {
+    display: flex;
+    gap: 56px;
+    margin-right: 118px;
+
+}
+
+.price_mobile {
+    display: none;
+}
+
+.contact {
+    margin-right: 56px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.address {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-family: 'VantaLight';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+
+/* Frame 1 */
+
+.stocks {
+    margin-top: 176px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 520px;
+}
+
+.stocks_title {
+    font-family: 'Vanta';
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 46.13px;
+    text-align: center; 
+    color: #363431; 
+    margin-bottom: 80px;
+    margin-top: 176px;
+}
+
+.stocks_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 72px;
+}
+
+.stocks_inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+
+.image_body {
+    background-image: url('../image/image_body.png');
+    width: 648px;
+    height: 424px;
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.image_body_1 {
+    background-image: url('../image/image_body_1.png');
+    width: 648px;
+    height: 424px;
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.image_body_2 {
+    background-image: url('../image/image_body_2.png');
+    width: 648px;
+    height: 424px;
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.image_body_3 {
+    background-image: url('../image/image_body_3.png');
+    width: 648px;
+    height: 424px;
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.stocks_content_right {
+    width: 648px;
+}
+
+.stocks_content_right_title {
+    font-family: 'Vanta';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 41.6px; 
+    color: #363431; 
+    margin-top: 80px;
+    margin-bottom: 24px;
+}
+
+.stocks_content_right_description {
+    font-family: 'VantaLight';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px; 
+    color: #363431; 
+    margin-bottom: 24px;
+}
+
+.price {
+    color: #74B900;
+    margin-bottom: 32px;
+}
+
+.price_1 {
+    font-family: 'Vanta';
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 54.4px;  
+}
+
+.price_2 {
+    font-family: 'Vanta';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px; 
+}
+
+.stocks a {
+    font-family: 'Vanta';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px; 
+    color: #363431; 
+    text-decoration: none;
+    border-bottom: 1px solid #363431;
+    padding-bottom: 5px;
+}
+
+
+.slider_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 176px;
+}
+
+.slider_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 512px;
+    width: 100%;     
+}
+
+.arrow-left {
+    width: 64px;
+    height: 64px;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow-right {
+    width: 64px;
+    height: 64px;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-indicators {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_active {
+    width: 16px;
+    height: 16px;
+    background-color: #363431;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+.button_note {
+    width: 16px;
+    height: 16px;
+    background-color: #AEACAA;
+    border-radius: 100%;
+    border: none;
+    cursor: pointer;
+    margin-left: 24px;
+}
+
+
